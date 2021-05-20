@@ -7,5 +7,5 @@ def loopWhile():
         print(x) 
         x = x + 1
 
-# Executando a função
+# Executando a função.
 loopWhile
