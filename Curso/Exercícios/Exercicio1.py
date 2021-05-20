@@ -19,7 +19,7 @@ for tecnologia in range(3):
     atribuicao.append(input('Digite a tecnologia usando for: '))
 '''
 
-#Inserindo na lista usando while
+#Inserindo na lista usando while.
 
 contador = 1
 while ( contador < 4):
