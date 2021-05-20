@@ -213,5 +213,5 @@ while True:
 #Encerrando execução
 print('Finalizado os servidores')
 
-#Finalizando a tela.
+#Finalizando a tela
 janela_login_senha.close()
