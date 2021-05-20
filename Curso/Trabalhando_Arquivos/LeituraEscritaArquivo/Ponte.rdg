@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RDCMan programVersion="2.7" schemaVersion="3">
+  <file>
+    <credentialsProfiles />
+    <properties>
+      <expanded>True</expanded>
+      <name>Ponte</name>
+    </properties>
+    <connectionSettings inherit="None">
+      <connectToConsole>False</connectToConsole>
+      <startProgram />
+      <workingDir />
+      <port>5616</port>
+      <loadBalanceInfo />
+    </connectionSettings>
+    <server>
+      <properties>
+        <displayName>10.204.203.113 Ponte EAGAN</displayName>
+        <name>c970vyygtmxen.lhtrqa.loc</name>
+      </properties>
+      <connectionSettings inherit="None">
+        <connectToConsole>False</connectToConsole>
+        <startProgram />
+        <workingDir />
+        <port>3389</port>
+        <loadBalanceInfo />
+      </connectionSettings>
+    </server>
+    <server>
+      <properties>
+        <displayName>10.218.198.16 Ponte Peapod</displayName>
+        <name>c484tce.mgmt.tlrg.com</name>
+      </properties>
+      <gatewaySettings inherit="None">
+        <enabled>False</enabled>
+        <hostName />
+        <logonMethod>Any</logonMethod>
+        <localBypass>True</localBypass>
+        <credSharing>True</credSharing>
+        <profileName scope="Local">Custom</profileName>
+        <userName />
+        <password />
+        <domain />
+      </gatewaySettings>
+    </server>
+    <server>
+      <properties>
+        <displayName>10.218.198.17 Ponte Peapod</displayName>
+        <name>10.218.198.17</name>
+      </properties>
+    </server>
+  </file>
+  <connected />
+  <favorites />
+  <recentlyUsed />
+</RDCMan>
