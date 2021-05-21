@@ -210,7 +210,7 @@ while True:
             print(f'Finalizado no servidor: {servidor}\n')
 
 
-#Encerrando execução
+#Encerrando execução da Janela
 print('Finalizado os servidores')
 
 #Finalizando a tela
