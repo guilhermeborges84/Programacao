@@ -21,8 +21,8 @@ def subir_todos_webservices_appserver(address, command):
             print()
             for line in stdout.readlines():
                 #Guardar os comandos no arquivo Resultado.log como log.
-                logResultado = ('/appserver/tomcat/'+ (line.replace('\n','/bin/./stopServer.sh\n')))
-                Resultado = ('/appserver/tomcat/'+ (line.replace('\n','/bin/./stopServer.sh')))
+                logResultado = ('/appserver/tomcat/'+ (line.replace('\n','/bin/./startServer.sh\n')))
+                Resultado = ('/appserver/tomcat/'+ (line.replace('\n','/bin/./startServer.sh')))
                 print(servidor)
                 print(logResultado)
                 with open(caminho_resultado,'a') as arquivo:
@@ -55,8 +55,8 @@ def subir_todos_webservices_appdata(address, command):
         if stdout:
             for line in stdout.readlines():
                 #Guardar os comandos no arquivo Resultado.log como log.
-                logResultado = ('/appdata/tomcat/'+ (line.replace('\n','/bin/./stopServer.sh\n')))
-                Resultado = ('/appdata/tomcat/'+ (line.replace('\n','/bin/./stopServer.sh')))
+                logResultado = ('/appdata/tomcat/'+ (line.replace('\n','/bin/./startServer.sh\n')))
+                Resultado = ('/appdata/tomcat/'+ (line.replace('\n','/bin/./startServer.sh')))
                 print(logResultado)
                 with open(caminho_resultado,'a') as arquivo:
                     #Executar o comando do principal para gravar no arquivo texto o resultado
@@ -87,8 +87,8 @@ def subir_webservice_especifico_appserver(address, command):
         if stdout:
             for line in stdout.readlines():
                 #Guardar os comandos no arquivo Resultado.log como log.
-                logResultado = ('/appserver/tomcat/'+ (line.replace('\n','/bin/./stopServer.sh\n')))
-                Resultado = ('/appserver/tomcat/'+ (line.replace('\n','/bin/./stopServer.sh')))
+                logResultado = ('/appserver/tomcat/'+ (line.replace('\n','/bin/./startServer.sh\n')))
+                Resultado = ('/appserver/tomcat/'+ (line.replace('\n','/bin/./startServer.sh')))
                 print(servidor)
                 print(logResultado)
                 with open(caminho_resultado,'a') as arquivo:
@@ -119,9 +119,9 @@ def subir_webservice_especifico_appdata(address, command):
         if stdout:
             for line in stdout.readlines():
                 #Guardar os comandos no arquivo Resultado.log como log.
-                logResultado = ('/appdata/tomcat/'+ (line.replace('\n','/bin/./stopServer.sh\n')))
-                Resultado_stop = ('/appdata/tomcat/'+ (line.replace('\n','/bin/./stopServer.sh')))
-                #Resultado_stop = ('/appdata/tomcat/'+ (line.replace('\n','/bin/./stopServer.sh')))
+                logResultado = ('/appdata/tomcat/'+ (line.replace('\n','/bin/./startServer.sh\n')))
+                Resultado_stop = ('/appdata/tomcat/'+ (line.replace('\n','/bin/./startServer.sh')))
+                #Resultado_stop = ('/appdata/tomcat/'+ (line.replace('\n','/bin/./startServer.sh')))
                 with open(caminho_resultado,'a') as arquivo:
                     #Executar o comando do principal para gravar no arquivo texto o resultado
                     stdin,stdout, stderr = ssh.exec_command(command)

@@ -1,12 +1,3 @@
-
-echo c673fcdgtmwsq.int.thomsonreuters.com
-/appdata/tomcat/tomcat-ws-apa-qa/bin/./stopServer.sh
-echo c673fcdgtmwsq.int.thomsonreuters.com
-/appdata/tomcat/tomcat-ws-apa-qa/bin/./stopServer.sh
-echo c673fcdgtmwsq.int.thomsonreuters.com
-/appdata/tomcat/tomcat-ws-apa-qa/bin/./startServer.sh
-echo c673fcdgtmwsq.int.thomsonreuters.com
-/appdata/tomcat/tomcat-ws-apa-qa/bin/./stopServer.sh
 echo c349yzhgtmws.int.thomsonreuters.com
 /appserver/tomcat/tomcat-ws-danfoss_8.0.45.1/bin/./startServer.sh
 echo c349yzhgtmws.int.thomsonreuters.com
@@ -18,8 +9,6 @@ echo c349yzhgtmws.int.thomsonreuters.com
 echo c349yzhgtmws.int.thomsonreuters.com
 /appserver/tomcat/tomcat-ws-sfwsap-qa/bin/./startServer.sh
 echo c349yzhgtmws.int.thomsonreuters.com
-/appserver/tomcat/tomcat-ws-traet-proj/bin/./startServer.sh
-echo c349yzhgtmws.int.thomsonreuters.com
 /appserver/tomcat/tomcat-ws-traet-qa/bin/./startServer.sh
 echo c349yzhgtmws.int.thomsonreuters.com
 /appserver/tomcat/tomcat-ws-trfin-qa/bin/./startServer.sh
@@ -30,26 +19,6 @@ echo c349yzhgtmws.int.thomsonreuters.com
 echo c349yzhgtmws.int.thomsonreuters.com
 /appserver/tomcat/tomcat-ws-trwal-qa/bin/./startServer.sh
 echo c349yzhgtmws.int.thomsonreuters.com
-/appdata/tomcat/tomcat-ws-alstom-et_qa_8.0.45.2/bin/./startServer.sh
-echo c349yzhgtmws.int.thomsonreuters.com
 /appdata/tomcat/tomcat-ws-danfoss_8.0.45.1/bin/./startServer.sh
 echo c349yzhgtmws.int.thomsonreuters.com
 /appdata/tomcat/tomcat-ws-kellogs-qa_8.0.45.2/bin/./startServer.sh
-echo c349yzhgtmws.int.thomsonreuters.com
-/appdata/tomcat/tomcat-ws-traet-qa/bin/./startServer.sh
-echo c792rgrgtmwsq.int.thomsonreuters.com
-/appserver/tomcat/tomcat-ws-sfwcae-qa/bin/./stopServer.sh
-echo c792rgrgtmwsq.int.thomsonreuters.com
-/appserver/tomcat/tomcat-ws-tradb-qa/bin/./stopServer.sh
-echo c792rgrgtmwsq.int.thomsonreuters.com
-/appserver/tomcat/tomcat-ws-trhbs-qa/bin/./stopServer.sh
-echo c792rgrgtmwsq.int.thomsonreuters.com
-/appserver/tomcat/tomcat-ws-trmwm-qa/bin/./stopServer.sh
-echo c792rgrgtmwsq.int.thomsonreuters.com
-/appserver/tomcat/tomcat-ws-trnat-qa/bin/./stopServer.sh
-echo c792rgrgtmwsq.int.thomsonreuters.com
-/appserver/tomcat/tomcat-ws-trodb-qa/bin/./stopServer.sh
-echo c792rgrgtmwsq.int.thomsonreuters.com
-/appserver/tomcat/tomcat-ws-trrec-qa/bin/./stopServer.sh
-echo c792rgrgtmwsq.int.thomsonreuters.com
-/appserver/tomcat/tomcat-ws-trsyn-qa/bin/./stopServer.sh
