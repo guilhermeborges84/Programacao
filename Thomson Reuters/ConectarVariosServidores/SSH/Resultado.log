@@ -20,5 +20,3 @@ echo c349yzhgtmws.int.thomsonreuters.com
 /appserver/tomcat/tomcat-ws-trwal-qa/bin/./startServer.sh
 echo c349yzhgtmws.int.thomsonreuters.com
 /appdata/tomcat/tomcat-ws-danfoss_8.0.45.1/bin/./startServer.sh
-echo c349yzhgtmws.int.thomsonreuters.com
-/appdata/tomcat/tomcat-ws-kellogs-qa_8.0.45.2/bin/./startServer.sh
