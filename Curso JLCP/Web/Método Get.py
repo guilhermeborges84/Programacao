@@ -8,6 +8,12 @@ import requests
 endereco = 'http://127.0.0.1:5000'
 
 #O metodo get tem que passar (url = endereço ) por exemplo  request.get(url=google.com.br)
+#Response = resposta da requisição
 resposta = requests.get(url=f'{endereco}/healthcheck')
+status = resposta.status_code
 
-print(resposta)
+if status == 200:
+    conteudo = resposta.json()
+    #Existe um dicionário com o nome message e valor 'API is alive'
+    #Exemplo: {'message': 'API is alive'}
+    print(conteudo['message'])
