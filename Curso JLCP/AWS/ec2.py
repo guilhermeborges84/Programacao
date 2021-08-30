@@ -13,8 +13,16 @@ Instancia = boto3.client('ec2')
 #Me mostra as informações da minhas instâncias 
 TodasInstancias = Instancia.describe_instances()
 
-for informacoes in TodasInstancias['Reservations']:
-    for instance in informacoes['Instances']:
-        nomeInstancia = instance['KeyName']
-        statusInstancia = instance['State']['Name']
-        print(f'O nome da minha instancia é {nomeInstancia} o estado dela é {statusInstancia}')
+
+#print(TodasInstancias)
+#print(TodasInstancias["Reservations"])
+
+#Guardando os valores do dicionário Reservations
+Reservations = TodasInstancias["Reservations"]
+
+print(TodasInstancias)
+
+'''for listaReservations in Reservations:
+    for listaInstances in listaReservations["Instances"]:
+        print(listaInstances["ImageId"])
+'''
